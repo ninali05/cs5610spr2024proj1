@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+.topping {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #7FC7D9;
+    display: flex;
+    justify-content: space-between;
+}
+  
+
+h1 {
+    font-size: 25px;
+    color: white;
+    margin-left: 10px;
+}
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    transition: 500ms;
+}
+
+#cur {
+    background-color: #365486;
+}
+  
+.navbar a:hover {
+    color: black;
+}
+
+.school {
+    color: #38419D;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.main-page-container {
+    display: flex;
+    justify-content:center;
+    align-items:flex-start;
+    flex-direction: column;
+    padding: 30px 30px;
+    gap: 10px;
+    margin-top: 30px;
+    
+}
+
+@media (max-width: 700px) {
+    h1 {
+        font-size: 15px;
+    }
+
+    .navbar a {
+        font-size: 11px;
+        padding: 15px 16px;
+    }
+
+}
+
+.main-page-box > h2:first-child {
+    color: #424769;;
+}

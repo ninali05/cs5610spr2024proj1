@@ -1,0 +1,58 @@
+.hobby-container {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    margin-top: 30px;
+
+}
+
+.hobby-header {
+    grid-row: 1; 
+    grid-column: 1 / 3;
+
+}
+
+.hobby-box {
+    display: flex;
+    justify-content:center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-left: 10%;
+    
+} 
+
+.box1 {
+    grid-row: 2 / 8; 
+    grid-column: 1 / 2;
+    background-color: #9DBC98;
+}
+
+
+.box2 {
+    grid-row: 2 / 5; 
+    grid-column: 2 / 3;
+    background-color: #F9EFDB;
+
+}
+
+.box3 {
+    grid-row: 5 / 8; 
+    grid-column: 2 / 3;
+    background-color: #EBD9B4;
+}
+.box1 img {
+    width: 90%;
+    height: auto;
+}
+.box2 img {
+    width: 70%;
+    height: auto;
+}
+
+.box3 img {
+    width: 100%;
+    height: auto;
+}
+
